@@ -1,4 +1,19 @@
-// filer created
-// main branch
+#include <stdio.h>
+int main()
+{
+    FILE *ptr;
+    ptr = fopen("levi.txt", "r");
+    int num;
 
-////dev 1 is submit code to dev
+    if (ptr == NULL)
+    {
+        printf("file not exist\n");
+    }
+    else
+    {
+        fscanf(ptr, "%d", &num);
+        printf("The value of num: %d\n", num);
+        fclose(ptr);
+    }
+    return 0;
+}
