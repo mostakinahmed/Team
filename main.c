@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+void dev3()
+{
+    printf("dev 3");
+}
+
 void sum()
 {
     printf("sum");
