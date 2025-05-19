@@ -1,4 +1,14 @@
 #include <stdio.h>
+void dev1()
+{
+    printf("dev 1");
+}
+
+void mo()
+{
+    printf("dev 2");
+}
+
 int main()
 {
     FILE *ptr;
@@ -21,3 +31,4 @@ int main()
 // dev 2 is submit their code
 // dev 2 is working
 // data add
+// dev 2 done
