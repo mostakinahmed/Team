@@ -1,4 +1,10 @@
 #include <stdio.h>
+
+void sum()
+{
+    printf("sum");
+}
+
 void dev1()
 {
     printf("dev 1");
