@@ -1,4 +1,8 @@
 #include <stdio.h>
+void dev1()
+{
+    printf("dev 1");
+}
 
 void mo()
 {
